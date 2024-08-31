@@ -16,4 +16,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
         SceneManager.LoadScene("Scene3");
     }
+
+    public void ToMoveScene()
+    {
+        SceneManager.LoadScene("MoveScene");
+    }
 }
